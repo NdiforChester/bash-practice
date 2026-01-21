@@ -1,3 +1,15 @@
- Difining bash scripting
+ Difining bash scripting: A bash cript a container that host linux commands and authomates them as the script run.
  Knowing variables and substitutions in bash
- making conditional statements in a bash scripts
+   A variable is a named container that stores a value (text or numbers) that can change while the script executes.
+   Declaring a variable
+   name="Chester"
+   count=10
+ Substitution means replacing something with its value or result.
+ Making conditional statements in a bash scripts
+if [ "$age" -ge 18 ]; then
+  echo "You are an adult"
+elif [ "$age" -ge 13 ]; then
+  echo "You are a teenager"
+else
+  echo "You are a child"
+fi
